@@ -87,3 +87,25 @@ Entry level of AngularJS, Photoshop, Entry level of Git
         lpSetNavActive();
         $(window).on('load scroll', lpSetNavActive);
 ```
+### Summary
+My **end goal of this course** is to learn skills and gain confidence in programming, and to eventually open my own IT company in a technology-focused environment such as Hong Kong or Singapore. My **short term goal** is to be able to create websites with **out-of-the-box creative ideas** that give users a **unique user-experience**. I want to be able to show that **programming is also an art**, and that **coding is also a form of self-expression** for artists and creative-minded people. 
+
+As an individual that has always been on the arts and creative side, **I have always been interested in creative ways that we experience the digital world**. But I always thought it was impossible, that coding was only a career for mathematics and science focused people. However, after taking an introduction course in 2019, I soon found new skills that allowed me to express myself through digital platforms such as my website, giving me new motivation. It is satisfying to have total control of my photography website, and being able to customize every detail to perfection.
+
+### Experience
+[My First Project](https://gabriellji.firebaseapp.com/)
+
+### Education
+**BelHard Academy**/The basics of Web Application Development
+> October 2019
+
+**IT Academy**/Computer Science
+> November 2019
+
+**BelHard Academy**/Front-End Software Developer
+> December 2019
+
+**MGEI University**/Psychology
+
+### English Level
+I have formal **English training in high school and at MGEI University**, and completed  **intermediate level of English course**. I also believe that my passion for travel and fast learning ability has allowed me to increase my level in writing and speaking English. I lived and worked in Hong Kong for a year, and it was a job requirement to speak in English. In addition, I also have a passion for languages, and I am currently learning **Mandarin** to give me a better career position for the future.
