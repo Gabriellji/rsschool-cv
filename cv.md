@@ -25,3 +25,6 @@ gabriellji@yahoo.com or gabrielljihk@yahoo.com
 **Marital Status**
 > Single
 
+### Skills
+HTML, HTML5, CSS, CSS3, Entry level of JavaScript, jQuery, 
+Entry level of AngularJS, Photoshop, Entry level of Git
