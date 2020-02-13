@@ -2,39 +2,159 @@
 
 body {
     width: 1000px;
+    min-height: 1500px;
     border: 1px solid green;
     margin: 0 auto;
+    
+    
+
     
 }
 
 .name {
-    border: 1px solid red;
     padding: 10px;
+}
+.name span {
+    color:gray;
 }
 .info {
     display: flex;
+   
 }
 .contact {
     display: inline-block;
-    border: 1px solid blue;
     padding: 10px;
+    padding-right: 80px;
+}
+.contact span {
+
+    color: #f05347;
 }
 .personal-details {
     display: inline-block;
-    border: 1px solid yellow;
     padding: 10px; 
     padding-right: 80px; 
 }
 
 .avatar {
+    display: inline-block;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;  
+    padding: 10px; 
+    padding-top: 15px; 
    
 }
 .avatar img {
-    width: 250px;
-  
+    width: 250px;    
+}
+
+.border {
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.skills {
+    display: flex;
+}
+
+
+.skills div {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 1px;
+    border-bottom: 2px solid black;
     
 }
+
+div .first {
+    padding: 10px;
+    padding-right: 300px;
+    border: none;
+}
+
+.summary {
+    display: flex;
+}
+.summary div {
+    display: inline-block;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 2px solid black;
+}
+div .second {
+    padding: 10px;
+    padding-right: 260px;
+    border: none;
+    
+}
+.summary-text {
+    margin-right: 60px;
+    line-height: 23px ;
+    
+}
+
+.experience {
+    display: flex;
+    text-decoration: none;
+}
+
+.experience a {
+
+    text-decoration: none;
+    color: #f05347;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: font-weight .45s, text-decoration .45s, color .45s, padding .45s;
+}
+
+.experience a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 18px;
+    color: #e37b57;
+
+}
+
+div .third {
+    padding: 10px;
+    padding-right: 250px;
+    border: none;
+}
+
+div .link {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-right: 60px;
+    border-bottom: 2px solid black;
+}
+
+.education {
+    display: flex;
+} 
+.education span {
+    color: gray;;
+}
+
+.education div {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 1px;
+    /* border-bottom: 2px solid black; */
+    line-height: 23px;
+}
+
+div .fourth {
+    padding: 10px;
+    padding-right: 240px;
+    border: none;
+}
+
+.education div ul {
+    padding: 5px;
+}
+
