@@ -22,5 +22,19 @@ body {
 .personal-details {
     display: inline-block;
     border: 1px solid yellow;
+    padding: 10px; 
+    padding-right: 80px; 
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;  
+   
+}
+.avatar img {
+    width: 250px;
+  
+    
 }
