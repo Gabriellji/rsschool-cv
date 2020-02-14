@@ -199,9 +199,25 @@ div .code {
 }
 
 footer .base {
+    display: flex;
     width: 100%;
     height: 100px;
-    background-color: #f05347;
     margin-top: 70px;
+ 
+}
+
+div .icons {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+div .icons img {
+    width: 30px;
+    padding-right: 40px;
+    transition: width .25s ;
+}
+div .icons img:hover {
+    width: 38px; 
  
 }
