@@ -3,7 +3,7 @@
 body {
     width: 1000px;
     min-height: 1500px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0 auto;
     
     
@@ -144,8 +144,9 @@ div .link {
     display: inline-block;
     padding: 10px;
     padding-left: 1px;
-    /* border-bottom: 2px solid black; */
+    
     line-height: 23px;
+   
 }
 
 div .fourth {
@@ -158,3 +159,49 @@ div .fourth {
     padding: 5px;
 }
 
+.english-level {
+    display: flex;
+
+}
+.english-level div {
+    display: inline-block;
+    padding: 10px; 
+
+    
+}
+
+div .fifth {
+    padding-right: 280px;
+}
+
+div .level-text {
+    margin-right: 60px;
+    text-align: justify;
+    line-height: 23px ;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.code-examples {
+    display: flex;
+}
+
+.code-examples div {
+    display: inline-block;
+}
+div .sixth {
+    padding: 10px;
+}
+
+div .code {
+    font-weight: bolder;
+}
+
+footer .base {
+    width: 100%;
+    height: 100px;
+    background-color: #f05347;
+    margin-top: 70px;
+ 
+}

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="_blank">
     <title>My CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -130,9 +131,103 @@
             </div>
         </div>
 
+        <div class="english-level">
+            <div class="fifth">
+                <h3>
+                    English Level
+            </h3> 
+        </div>
+            <div class="level-text">
+                <p>
+                    I have formal English training in high school and at MGEI University,
+                  and completed intermediate level of English course.
+                  I also believe that my passion for travel and fast learning ability has allowed me to increase my
+                  level in writing and speaking English. I lived and worked in Hong Kong for a year, and it was a job 
+                 requirement to speak in English. In addition, I also have a passion for languages, and I am currently
+                  learning Mandarin to give me a better career position for the future.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="code-examples">
+
+         <div class="sixth">
+
+            <h3>Latest Code Examples</h3>
+         </div>
+         <div class="code">
+
+            <figure>
+                <figcaption></figcaption>
+                <pre>               function lpHeader() {
+                    if ($(window).scrollTop() == 0) {
+                        $('header').addClass('top');
+                    } else {
+                        $('header.top').removeClass('top');
+                    }
+                }
+                lpHeader();
+                $(window).on('load scroll', lpHeader);
+                let lpNav = $('header ul');
+                lpNav.find('li a').on('click', function (e) {
+                    let trgtSelector = $(this).attr('href');
+                    linkTrgt = $(trgtSelector);
+                    if (linkTrgt.length > 0) {
+                        e.preventDefault();
+                        let offset = linkTrgt.offset().top,
+                            correction = linkTrgt.attr('data-offset') || 40;
+                        $('body, html').animate({
+                            scrollTop: offset - correction
+                        }, 750);
+                    }
+                });</pre>
+            
+                <pre>
+                    $("#arrow-down").on("click", "a", function (event) {
+                        event.preventDefault();
+                        let id = $(this).attr('href'),
+                            top = $('#portfolio').offset().top;
+                        $('body,html').animate({
+                            scrollTop: top
+                        }, 750);
+                    });
+                </pre>
+
+                <pre>
+                    function lpSetNavActive() {
+                        let curItem = '';
+                        $('body > section').each(function () {
+                            if ($(window).scrollTop() > $(this).offset().top - 50) {
+                                curItem = $(this).attr('id');
+                            }
+                        });
+            
+                        let noActiveItem = lpNav.find('li.active').length == 0,
+                            newActiveRequired = lpNav.find('li.active a').attr('href') != '#' + curItem;
+                        if (noActiveItem || newActiveRequired) {
+                            lpNav.find('li.active').removeClass('active');
+                            lpNav.find('li a[href="#' + curItem + '"]').parent().addClass('active');
+                            $('.header').removeClass('color-undefined color-slideshow color-portfolio<br>
+                             color-about color-travel color-pricing');
+                            $('.header').addClass('color-' + curItem);
+                        }
+                    }
+                    lpSetNavActive();
+                    $(window).on('load scroll', lpSetNavActive);
+                </pre>
+                </figure>
+         </div>
+        </div>
+
     </main>
     <footer>
-        
+        <div class="base">
+
+            <div class="icons">
+
+            </div>
+        </div>
     </footer>
 </body>
 </html>
