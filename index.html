@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <base target="_blank">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header">
+
+        <div class="name">
+            <h1> Yauheniya Habrykava</h1> 
+            <h4><span>Evgeniya Gabrikova</span></h4>
+        </div>
+        <div class="info">
+<div class="contact">
+   <h3><span>Contact</span></h3>
+   <p><b>Direct line:</b> +37529-2418353</p>
+    <p><b>Whatsapp, Telegram :</b>  +37529-2418353</p>
+    <p><b>Email:</b> gabrielljihk@gmail.com</p>
+    <p><b>Instagram:</b> @gabriellji</p>
+</div>
+<div class="border">
+<div class="personal-details">
+<h3>Personal Details</h3>
+<p><b>Nationality:</b> Belarus</p>
+<p><b>City of Residence:</b> Minsk, Belarus </p>
+<p><b>Date of Birth :</b> 24 January 1991 </p>
+<p><b>Marital Status:</b> Single </p>
+</div>
+
+<div class="avatar">
+    <img src="img/photo_2020-02-13_17-24-40.jpg" alt="avatar">
+
+</div>
+</div>
+</div>
+</div>
+</header>
+    <main>
+        <div class="skills">
+            <div class="first">
+
+                <h3>Skills</h3>
+            </div>
+
+            <div>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Entry level of JavaScript</li>
+            </ul>
+        </div>
+            <div>
+                <ul>
+                    <li>HTML5</li>
+                    <li> jQuery</li>
+                    <li>Entry level of AngularJS</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>CSS3</li>
+                    <li>Photoshop</li>
+                    <li>Entry level of Git</li>
+                </ul>
+            </div>
+           
+        </div>
+
+        <div class="summary">
+
+            <div class="second">
+                <h3>Summary</h3>
+            </div>
+
+            <div class="summary-text">
+
+                <p>
+
+                    My <b>end goal of this course</b> is to learn skills and gain confidence in programming,
+                  and to eventually open my own IT company in a technology-focused environment such as Hong Kong or Singapore.
+                <b>My short term goal</b> is to be able to create websites with <b>out-of-the-box creative ideas</b> that give users a <b>unique
+                 user-experience</b>. I want to be able to show that <b>programming is also an art</b>, and that <b>coding is also a form of 
+                 self-expression</b> for artists and creative-minded people.
+                </p>
+                <p>
+                    As an individual that has always been on the arts and creative side,
+                    <b>I have always been interested in creative ways that we experience the digital world</b>.
+                    But I always thought it was impossible, that coding was only a career for mathematics
+                    and science focused people. However, after taking an introduction course in 2019,
+                    I soon found new skills that allowed me to express myself through digital platforms such as my website,
+                    giving me new motivation. It is satisfying to have total control of my photography website, 
+                   and being able to customize every detail to perfection 
+                </p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="third">
+                <h3>Experience</h3>
+            </div>
+            <div class="link">
+                <a href="https://gabriellji.firebaseapp.com/">Click Me</a>
+            </div>
+        </div>
+
+        <div class="education">
+            <div class="fourth"> <h3>Education</h3></div>
+            <div>
+                <ul>
+                    <li><b>MGEI University</b><br>
+                        <span>Psychology</span></li>
+                    <li><b>BelHard Academy/The basics of Web Application Development </b><br>
+                        <span>Course, October 2019</span></li>
+                    
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><b>IT Academy/Computer Science</b><br> 
+                        <span>Course, November 2019</span></li>
+                    <li><b>BelHard Academy/Front-End Software Developer</b><br> 
+                        <span>Course, December 2019<b></b></span></li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="english-level">
+            <div class="fifth">
+                <h3>
+                    English Level
+            </h3> 
+        </div>
+            <div class="level-text">
+                <p>
+                    I have formal English training in high school and at MGEI University,
+                  and completed intermediate level of English course.
+                  I also believe that my passion for travel and fast learning ability has allowed me to increase my
+                  level in writing and speaking English. I lived and worked in Hong Kong for a year, and it was a job 
+                 requirement to speak in English. In addition, I also have a passion for languages, and I am currently
+                  learning Mandarin to give me a better career position for the future.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="code-examples">
+
+         <div class="sixth">
+
+            <h3>Latest Code Examples</h3>
+         </div>
+         <div class="code">
+
+            <figure>
+                <figcaption></figcaption>
+                <pre>               function lpHeader() {
+                    if ($(window).scrollTop() == 0) {
+                        $('header').addClass('top');
+                    } else {
+                        $('header.top').removeClass('top');
+                    }
+                }
+                lpHeader();
+                $(window).on('load scroll', lpHeader);
+                let lpNav = $('header ul');
+                lpNav.find('li a').on('click', function (e) {
+                    let trgtSelector = $(this).attr('href');
+                    linkTrgt = $(trgtSelector);
+                    if (linkTrgt.length > 0) {
+                        e.preventDefault();
+                        let offset = linkTrgt.offset().top,
+                            correction = linkTrgt.attr('data-offset') || 40;
+                        $('body, html').animate({
+                            scrollTop: offset - correction
+                        }, 750);
+                    }
+                });</pre>
+            
+                <pre>
+                    $("#arrow-down").on("click", "a", function (event) {
+                        event.preventDefault();
+                        let id = $(this).attr('href'),
+                            top = $('#portfolio').offset().top;
+                        $('body,html').animate({
+                            scrollTop: top
+                        }, 750);
+                    });
+                </pre>
+
+                <pre>
+                    function lpSetNavActive() {
+                        let curItem = '';
+                        $('body > section').each(function () {
+                            if ($(window).scrollTop() > $(this).offset().top - 50) {
+                                curItem = $(this).attr('id');
+                            }
+                        });
+            
+                        let noActiveItem = lpNav.find('li.active').length == 0,
+                            newActiveRequired = lpNav.find('li.active a').attr('href') != '#' + curItem;
+                        if (noActiveItem || newActiveRequired) {
+                            lpNav.find('li.active').removeClass('active');
+                            lpNav.find('li a[href="#' + curItem + '"]').parent().addClass('active');
+                            $('.header').removeClass('color-undefined color-slideshow color-portfolio<br>
+                             color-about color-travel color-pricing');
+                            $('.header').addClass('color-' + curItem);
+                        }
+                    }
+                    lpSetNavActive();
+                    $(window).on('load scroll', lpSetNavActive);
+                </pre>
+                </figure>
+         </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="base">
+
+            <div class="icons">
+                <a href="https://github.com/gabriellji"><img src="icons/github.svg" alt="github"></a>
+                <a href="mailto:gabrielljihk@gmail.com"><img src="icons/email.svg" alt="email"></a>
+                <a href="https://www.instagram.com/gabriellji"><img src="icons/instagram.svg" alt="instagram"></a>
+                <a href="https://t.me/gabriellji"><img src="icons/send.svg" alt="telegram"></a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
